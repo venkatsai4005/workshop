@@ -1,0 +1,6 @@
+FROM almalinux:9
+Run dnf install git -y
+Run useradd venkat
+User venkat
+CMD ["google.com"]
+ENTRYPOINT ["ping"]
